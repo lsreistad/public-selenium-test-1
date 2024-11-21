@@ -1,0 +1,6 @@
+FROM mcr.microsoft.com/dotnet/sdk:6.0
+RUN apt-get update && apt-get install -y wget unzip
+RUN wget https://chromedriver.storage.googleapis.com/$(wget -qO- https://chromedriver.storage.googleapis.com/LATEST_RELEASE)/chromedriver_linux64.zip \
+    && unzip chromedriver_linux64.zip -d /usr/local/bin/ \
+    && chmod +x /usr/local/bin/chromedriver
+RUN apt-get install -y xvfb

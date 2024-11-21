@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeleniumSandbox", "SeleniumSandbox.csproj", "{397351F4-5143-499D-B5D3-E91FA0E29C4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{397351F4-5143-499D-B5D3-E91FA0E29C4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{397351F4-5143-499D-B5D3-E91FA0E29C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{397351F4-5143-499D-B5D3-E91FA0E29C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{397351F4-5143-499D-B5D3-E91FA0E29C4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19BD43D2-B44F-40E3-BE5B-AF79E2700749}
+	EndGlobalSection
+EndGlobal
